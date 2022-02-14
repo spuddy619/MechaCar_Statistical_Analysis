@@ -11,7 +11,7 @@
  
  2.) The slope of the linear model is not zero. When the slope of a linear model is zero, the null hypothesis is true. The p-value of the linear model is 5.35e-11; this is much lower than the assumed level of significance (0.05). This means that we must reject our null hypothesis and this consequently means that the slope is not zero. <br/>
  
- 3.)This model effectively predicts the mpg of the prototypes. Whether or not a model can effectively predict future outcomes can be determined by the r-squared value. Based on the summary function above, the r-squared value for the model is 0.7149, meaning that around 71 percent of mpg predictions from this model will be correct. Therefore, the model does effectively predict mpgs of the prototypes. <br/>
+ 3.) This model effectively predicts the mpg of the prototypes. Whether or not a model can effectively predict future outcomes can be determined by the r-squared value. Based on the summary function above, the r-squared value for the model is 0.7149, meaning that around 71 percent of mpg predictions from this model will be correct. Therefore, the model does effectively predict mpgs of the prototypes. <br/>
  
  
 
