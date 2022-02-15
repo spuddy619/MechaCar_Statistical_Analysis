@@ -32,22 +32,22 @@ Here, we perform t-tests to determine if the manufacturing lots - in total and s
 ![image](https://user-images.githubusercontent.com/72320203/153992788-41c29632-df65-477a-8f8b-e9a5bbdffec9.png)
 
  ### All Lots
-![image](https://user-images.githubusercontent.com/72320203/153993228-f5b9246b-ac98-4762-82f0-9e350c01b207.png)
+![image](https://user-images.githubusercontent.com/72320203/153993228-f5b9246b-ac98-4762-82f0-9e350c01b207.png)<br/>
 Looking at the t-test we see that the calculated p-value is 0.06028. This is above the assumed significance level of 0.05. Therefore, we
 cannot reject the null hypothesis and consequently this means that in their entiretly, the lots are statistically similar to the population mean of 1,500
 lbs/square inch.
  
 ### Individual Lots 
 #### Lot 1
-![image](https://user-images.githubusercontent.com/72320203/153994105-d40fafcc-d1a8-4e05-8f9c-066dfa579a12.png)
+![image](https://user-images.githubusercontent.com/72320203/153994105-d40fafcc-d1a8-4e05-8f9c-066dfa579a12.png)<br/>
 Looking at the t-test of Lot 1, we can see that the calculated p-value is 1. This is above the significance level of 0.05. Therefore, we cannot reject the null hypothesis and consequently this means that Lot 1 is statistically similar to the population mean of 1,500 lbs/square inch.
 
 #### Lot 2
-![image](https://user-images.githubusercontent.com/72320203/153994779-bafbf5ac-e6f4-4eeb-bf08-615518c4bbab.png)
+![image](https://user-images.githubusercontent.com/72320203/153994779-bafbf5ac-e6f4-4eeb-bf08-615518c4bbab.png)<br/>
 Looking at the t-test of Lot 2, we can see that the calculated p-value is 0.6072. This is greater than the significance level of 0.05. Therefore, we cannot reject the null hypothesis and consequently this means that Lot 2 is statistically similar to the population mean of 1,500 lbs/square inch.
 
 #### Lot 3
-![image](https://user-images.githubusercontent.com/72320203/153995152-bbcb2663-a870-4143-8756-1c91942f40f2.png)
+![image](https://user-images.githubusercontent.com/72320203/153995152-bbcb2663-a870-4143-8756-1c91942f40f2.png)<br/>
 Looking at the t-test of Lot 3, we can see that the calculated p-value is 0.04168. This is less than the assumed significance level of 0.05. Therefore, we must reject the null hypothesis and consequently this means that Lot 3 is statistically different from the population mean of 1,500 lbs/square inch.
 
 
