@@ -50,7 +50,32 @@ Looking at the t-test of Lot 2, we can see that the calculated p-value is 0.6072
 ![image](https://user-images.githubusercontent.com/72320203/153995152-bbcb2663-a870-4143-8756-1c91942f40f2.png)<br/>
 Looking at the t-test of Lot 3, we can see that the calculated p-value is 0.04168. This is less than the assumed significance level of 0.05. Therefore, we must reject the null hypothesis and consequently this means that Lot 3 is statistically different from the population mean of 1,500 lbs/square inch.
 
+## Study Design: MechaCar vs Competition
+How does the performance of MechaCar vehicles compare against performances of vehicles from other manufacturers? <br/>
 
+By comparing the MechaCar against their competitors with statistical studies of the considerations made previously in the analysis (PSI, mpg, vehicle_length, etc.) and more, we can better improve the MechaCar prototypes.
+
+### Comparison Considerations:
+#### Metrics to Test
+-mpg <br/>
+-PSI <br/>
+-selling price <br/>
+-resale value <br/>
+-value deprecation <br/>
+-maintenance <br/>
+-auto insurance <br/>
+-fuel efficiency <br/>
+-what the consumer wants (cheaper? more fuel efficient? durable? etc.) <br/>
+-in their analyses, what is their preferred significance level? Is it 0.05 or is it more stringent? less stringent? <br/>
+
+#### Hypothesis: Null and Alternative
+-Null Hypothesis: The rate at which the MechaCar depreciates is comparable to that of its competitors <br/>
+-Alternative Hypothesis: The rate at which the MechaCar depreciates is not comparable to that of its competitors <br/>
+
+#### Statistical Tests to be Used and Data Needed
+-multiple linear regression would be used to identify factors that most influence the deprecation of a vehicle's value. By identifying what contributes to this issue, MechaCars can make a deliberate effort to create a car that maintains its value longer than their competitors. <br/>
+-Data about the competition's vehicles as well as how they gather and analyze their information would be helpful.
+-Data from dealerships that specifically reevalute these cars and reappraise them should also be collected.
 
 
 
