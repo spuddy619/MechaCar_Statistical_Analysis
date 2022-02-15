@@ -37,6 +37,15 @@ lot_summary <- mecha_suspension %>% group_by(Manufacturing_Lot) %>% summarize(Me
                                                                               Variance = var(PSI),
                                                                               SD = sd(PSI),
                                                                               .groups = 'keep')
+### Dev 3 ###
+#1.) use t-test() to determine if PSI across all lots is statistically different from the population mean of 1500 lbs/square inch
+t.test(mecha_suspension$PSI,mu=1500)
 
+#2.) t.test() + subset() arg --> determine if PSI for each manufacturing lot is statistically different from pop. mean = 1500
+lot1 <- subset(mecha_suspension, Manufacturing_Lot == "Lot1")
+lot2 <- subset(mecha_suspension, Manufacturing_Lot == "Lot2")
+lot3 <- subset(mecha_suspension, Manufacturing_Lot == "Lot3")
 
-
+t.test(lot1$PSI, mu = 1500)
+t.test(lot2$PSI, mu = 1500)
+t.test(lot3$PSI, mu = 1500)
