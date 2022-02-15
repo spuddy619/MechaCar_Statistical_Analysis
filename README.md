@@ -74,7 +74,7 @@ By comparing the MechaCar against their competitors with statistical studies of 
 
 #### Statistical Tests to be Used and Data Needed
 -multiple linear regression would be used to identify factors that most influence the deprecation of a vehicle's value. By identifying what contributes to this issue, MechaCars can make a deliberate effort to create a car that maintains its value longer than their competitors. <br/>
--Data about the competition's vehicles as well as how they gather and analyze their information would be helpful.
+-Data about the competition's vehicles as well as how they gather and analyze their information would be helpful. <br/>
 -Data from dealerships that specifically reevalute these cars and reappraise them should also be collected.
 
 
