@@ -5,9 +5,10 @@ The MechaCar_mpg.csv dataset contains mpg test results of prototype cars. The ot
  
  **Looking at the above image we can conclude:**<br>
  1.) The following variables are unlikely to provide random amounts of variance to the linear model:<br/>
- -vehicle_length (p-value: 2.60e-12)<br/>
- -ground_clearance (p-value: 5.21e-08)<br/>
- These two variables are statistically unlikely to provide random amounts of variance to the linear model; essentially, this means that these two variables are significantly impacting the miles per gallon on the car prototypes.<br/>
+ - vehicle_length (p-value: 2.60e-12)<br/>
+ - ground_clearance (p-value: 5.21e-08)<br/>
+
+These two variables are statistically unlikely to provide random amounts of variance to the linear model; essentially, this means that these two variables are significantly impacting the miles per gallon on the car prototypes.<br/>
  
  
 2.) The slope of the linear model is not zero. When the slope of a linear model is zero, the null hypothesis is true. The p-value of the linear model is 5.35e-11; this is much lower than the assumed level of significance (0.05). This means that we must reject our null hypothesis and this consequently means that the slope is not zero. <br/>
@@ -57,25 +58,25 @@ By comparing the MechaCar against their competitors with statistical studies of 
 
 ### Comparison Considerations:
 #### Metrics to Test
--mpg <br/>
--PSI <br/>
--selling price <br/>
--resale value <br/>
--value deprecation <br/>
--maintenance <br/>
--auto insurance <br/>
--fuel efficiency <br/>
--what the consumer wants (cheaper? more fuel efficient? durable? etc.) <br/>
--in their analyses, what is their preferred significance level? Is it 0.05 or is it more stringent? less stringent? <br/>
+- mpg <br/>
+- PSI <br/>
+- selling price <br/>
+- resale value <br/>
+- value deprecation <br/>
+- maintenance <br/>
+- auto insurance <br/>
+- fuel efficiency <br/>
+- what the consumer wants (cheaper? more fuel efficient? durable? etc.) <br/>
+- in their analyses, what is their preferred significance level? Is it 0.05 or is it more stringent? less stringent? <br/>
 
 #### Hypothesis: Null and Alternative
--Null Hypothesis: The rate at which the MechaCar depreciates is comparable to that of its competitors <br/>
--Alternative Hypothesis: The rate at which the MechaCar depreciates is not comparable to that of its competitors <br/>
+- Null Hypothesis: The rate at which the MechaCar depreciates is comparable to that of its competitors <br/>
+- Alternative Hypothesis: The rate at which the MechaCar depreciates is not comparable to that of its competitors <br/>
 
 #### Statistical Tests to be Used and Data Needed
--multiple linear regression would be used to identify factors that most influence the deprecation of a vehicle's value. By identifying what contributes to this issue, MechaCars can make a deliberate effort to create a car that maintains its value longer than their competitors. <br/>
--Data about the competition's vehicles as well as how they gather and analyze their information would be helpful. <br/>
--Data from dealerships that specifically reevalute these cars and reappraise them should also be collected.
+- multiple linear regression would be used to identify factors that most influence the deprecation of a vehicle's value. By identifying what contributes to this issue, MechaCars can make a deliberate effort to create a car that maintains its value longer than their competitors. <br/>
+- Data about the competition's vehicles as well as how they gather and analyze their information would be helpful. <br/>
+- Data from dealerships that specifically reevalute these cars and reappraise them should also be collected.
 
 
 
